@@ -31,27 +31,27 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(student));
             this.label10 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.address_textBox = new System.Windows.Forms.RichTextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.semester_Box = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.department_textBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.email_textBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.PhoneNumber_textBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker_box = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.gender_comboBox = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.id_textBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.name_textBox = new System.Windows.Forms.TextBox();
+            this.delete_btn = new System.Windows.Forms.Button();
+            this.edit_btn = new System.Windows.Forms.Button();
+            this.save_btn = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -70,7 +70,10 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.depId_textbox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.show_btn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.semester_Box)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -93,13 +96,13 @@
             this.label10.TabIndex = 68;
             this.label10.Text = "Students";
             // 
-            // richTextBox1
+            // address_textBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(336, 467);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(430, 233);
-            this.richTextBox1.TabIndex = 67;
-            this.richTextBox1.Text = "";
+            this.address_textBox.Location = new System.Drawing.Point(336, 467);
+            this.address_textBox.Name = "address_textBox";
+            this.address_textBox.Size = new System.Drawing.Size(430, 233);
+            this.address_textBox.TabIndex = 67;
+            this.address_textBox.Text = "";
             // 
             // label9
             // 
@@ -119,12 +122,12 @@
             this.label8.TabIndex = 65;
             this.label8.Text = "Semester";
             // 
-            // numericUpDown1
+            // semester_Box
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(630, 377);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(162, 27);
-            this.numericUpDown1.TabIndex = 64;
+            this.semester_Box.Location = new System.Drawing.Point(630, 377);
+            this.semester_Box.Name = "semester_Box";
+            this.semester_Box.Size = new System.Drawing.Size(162, 27);
+            this.semester_Box.TabIndex = 64;
             // 
             // label7
             // 
@@ -135,12 +138,12 @@
             this.label7.TabIndex = 63;
             this.label7.Text = "Department";
             // 
-            // textBox5
+            // department_textBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(336, 376);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(210, 27);
-            this.textBox5.TabIndex = 62;
+            this.department_textBox.Location = new System.Drawing.Point(336, 376);
+            this.department_textBox.Name = "department_textBox";
+            this.department_textBox.Size = new System.Drawing.Size(210, 27);
+            this.department_textBox.TabIndex = 62;
             // 
             // label6
             // 
@@ -151,12 +154,12 @@
             this.label6.TabIndex = 61;
             this.label6.Text = "Student Email";
             // 
-            // textBox4
+            // email_textBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(620, 294);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(294, 27);
-            this.textBox4.TabIndex = 60;
+            this.email_textBox.Location = new System.Drawing.Point(620, 294);
+            this.email_textBox.Name = "email_textBox";
+            this.email_textBox.Size = new System.Drawing.Size(294, 27);
+            this.email_textBox.TabIndex = 60;
             // 
             // label5
             // 
@@ -167,12 +170,12 @@
             this.label5.TabIndex = 59;
             this.label5.Text = "Student Phone Number";
             // 
-            // textBox3
+            // PhoneNumber_textBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(336, 294);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 27);
-            this.textBox3.TabIndex = 58;
+            this.PhoneNumber_textBox.Location = new System.Drawing.Point(336, 294);
+            this.PhoneNumber_textBox.Name = "PhoneNumber_textBox";
+            this.PhoneNumber_textBox.Size = new System.Drawing.Size(248, 27);
+            this.PhoneNumber_textBox.TabIndex = 58;
             // 
             // label4
             // 
@@ -183,12 +186,12 @@
             this.label4.TabIndex = 57;
             this.label4.Text = "Date Of Birth";
             // 
-            // dateTimePicker1
+            // dateTimePicker_box
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(336, 191);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(249, 27);
-            this.dateTimePicker1.TabIndex = 56;
+            this.dateTimePicker_box.Location = new System.Drawing.Point(336, 191);
+            this.dateTimePicker_box.Name = "dateTimePicker_box";
+            this.dateTimePicker_box.Size = new System.Drawing.Size(249, 27);
+            this.dateTimePicker_box.TabIndex = 56;
             // 
             // label3
             // 
@@ -199,16 +202,16 @@
             this.label3.TabIndex = 55;
             this.label3.Text = "Gender";
             // 
-            // comboBox1
+            // gender_comboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.gender_comboBox.FormattingEnabled = true;
+            this.gender_comboBox.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(620, 188);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(174, 28);
-            this.comboBox1.TabIndex = 54;
+            this.gender_comboBox.Location = new System.Drawing.Point(620, 188);
+            this.gender_comboBox.Name = "gender_comboBox";
+            this.gender_comboBox.Size = new System.Drawing.Size(174, 28);
+            this.gender_comboBox.TabIndex = 54;
             // 
             // label2
             // 
@@ -219,12 +222,13 @@
             this.label2.TabIndex = 53;
             this.label2.Text = "Student ID";
             // 
-            // textBox2
+            // id_textBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(630, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(210, 27);
-            this.textBox2.TabIndex = 52;
+            this.id_textBox.Location = new System.Drawing.Point(630, 88);
+            this.id_textBox.Name = "id_textBox";
+            this.id_textBox.Size = new System.Drawing.Size(210, 27);
+            this.id_textBox.TabIndex = 52;
+            this.id_textBox.TextChanged += new System.EventHandler(this.id_textBox_TextChanged);
             // 
             // label1
             // 
@@ -235,46 +239,47 @@
             this.label1.TabIndex = 51;
             this.label1.Text = "Student Name";
             // 
-            // textBox1
+            // name_textBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(336, 88);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(210, 27);
-            this.textBox1.TabIndex = 50;
+            this.name_textBox.Location = new System.Drawing.Point(336, 88);
+            this.name_textBox.Name = "name_textBox";
+            this.name_textBox.Size = new System.Drawing.Size(210, 27);
+            this.name_textBox.TabIndex = 50;
             // 
-            // button3
+            // delete_btn
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(673, 762);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 70);
-            this.button3.TabIndex = 71;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
+            this.delete_btn.BackColor = System.Drawing.Color.Red;
+            this.delete_btn.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.delete_btn.Location = new System.Drawing.Point(673, 762);
+            this.delete_btn.Name = "delete_btn";
+            this.delete_btn.Size = new System.Drawing.Size(110, 70);
+            this.delete_btn.TabIndex = 71;
+            this.delete_btn.Text = "Delete";
+            this.delete_btn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // edit_btn
             // 
-            this.button2.BackColor = System.Drawing.Color.Blue;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(505, 762);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 70);
-            this.button2.TabIndex = 70;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = false;
+            this.edit_btn.BackColor = System.Drawing.Color.Blue;
+            this.edit_btn.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.edit_btn.Location = new System.Drawing.Point(505, 762);
+            this.edit_btn.Name = "edit_btn";
+            this.edit_btn.Size = new System.Drawing.Size(110, 70);
+            this.edit_btn.TabIndex = 70;
+            this.edit_btn.Text = "Edit";
+            this.edit_btn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // save_btn
             // 
-            this.button1.BackColor = System.Drawing.Color.GreenYellow;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(336, 762);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 70);
-            this.button1.TabIndex = 69;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
+            this.save_btn.BackColor = System.Drawing.Color.GreenYellow;
+            this.save_btn.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.save_btn.ForeColor = System.Drawing.Color.Black;
+            this.save_btn.Location = new System.Drawing.Point(336, 762);
+            this.save_btn.Name = "save_btn";
+            this.save_btn.Size = new System.Drawing.Size(103, 70);
+            this.save_btn.TabIndex = 69;
+            this.save_btn.Text = "Save";
+            this.save_btn.UseVisualStyleBackColor = false;
+            this.save_btn.Click += new System.EventHandler(this.save_btn_Click);
             // 
             // contextMenuStrip1
             // 
@@ -478,39 +483,70 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
+            // depId_textbox
+            // 
+            this.depId_textbox.Location = new System.Drawing.Point(655, 426);
+            this.depId_textbox.Name = "depId_textbox";
+            this.depId_textbox.Size = new System.Drawing.Size(210, 27);
+            this.depId_textbox.TabIndex = 73;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(546, 433);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(104, 20);
+            this.label11.TabIndex = 74;
+            this.label11.Text = "department id";
+            // 
+            // show_btn
+            // 
+            this.show_btn.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.show_btn.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.show_btn.Location = new System.Drawing.Point(804, 762);
+            this.show_btn.Name = "show_btn";
+            this.show_btn.Size = new System.Drawing.Size(110, 70);
+            this.show_btn.TabIndex = 75;
+            this.show_btn.Text = "show";
+            this.show_btn.UseVisualStyleBackColor = false;
+            this.show_btn.Click += new System.EventHandler(this.show_btn_Click);
+            // 
             // student
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(950, 1055);
+            this.Controls.Add(this.show_btn);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.depId_textbox);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.delete_btn);
+            this.Controls.Add(this.edit_btn);
+            this.Controls.Add(this.save_btn);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.address_textBox);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.semester_Box);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.department_textBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.email_textBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.PhoneNumber_textBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dateTimePicker_box);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.gender_comboBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.id_textBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.name_textBox);
             this.Name = "student";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.student_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.semester_Box)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -528,27 +564,27 @@
         #endregion
 
         private Label label10;
-        private RichTextBox richTextBox1;
+        private RichTextBox address_textBox;
         private Label label9;
         private Label label8;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown semester_Box;
         private Label label7;
-        private TextBox textBox5;
+        private TextBox department_textBox;
         private Label label6;
-        private TextBox textBox4;
+        private TextBox email_textBox;
         private Label label5;
-        private TextBox textBox3;
+        private TextBox PhoneNumber_textBox;
         private Label label4;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateTimePicker_box;
         private Label label3;
-        private ComboBox comboBox1;
+        private ComboBox gender_comboBox;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox id_textBox;
         private Label label1;
-        private TextBox textBox1;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private TextBox name_textBox;
+        private Button delete_btn;
+        private Button edit_btn;
+        private Button save_btn;
         private ContextMenuStrip contextMenuStrip1;
         private Panel panel2;
         private PictureBox pictureBox2;
@@ -567,5 +603,9 @@
         private Button button8;
         private Button button11;
         private PictureBox pictureBox7;
+        private TextBox depId_textbox;
+        private Label label11;
+        private Button button1;
+        private Button show_btn;
     }
 }
